@@ -1,27 +1,29 @@
 {
-  "name": "character-sheet",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/react": "^16.3.16",
-    "@types/react-dom": "^16.0.5",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
-  },
-  "devDependencies": {
-    "awesome-typescript-loader": "^5.0.0",
-    "html-loader": "^0.5.5",
-    "htmllint-loader": "^2.1.4",
-    "source-map-loader": "^0.2.3",
-    "typescript": "^2.9.1",
-    "webpack": "^4.10.2",
-    "webpack-command": "^0.2.0",
-    "webpack-dev-server": "^3.1.4"
-  }
+    "name": "character-sheet",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --open"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/react": "^16.3.16",
+        "@types/react-dom": "^16.0.5",
+        "react": "^16.4.0",
+        "react-dom": "^16.4.0"
+    },
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.0.0",
+        "html-loader": "^0.5.5",
+        "htmllint-loader": "^2.1.4",
+        "source-map-loader": "^0.2.3",
+        "typescript": "^2.9.1",
+        "webpack": "^4.10.2",
+        "webpack-cli": "^3.0.0",
+        "webpack-command": "^0.2.0",
+        "webpack-dev-server": "^3.1.4"
+    }
 }
